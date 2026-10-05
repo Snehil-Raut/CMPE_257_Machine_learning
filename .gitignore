@@ -1,0 +1,47 @@
+# ---- Data & model artifacts (stay on Drive; M5 files exceed GitHub's 100 MB limit) ----
+raw/*
+processed/*
+models/*
+!raw/.gitkeep
+!processed/.gitkeep
+!models/.gitkeep
+*.zip
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.npy
+*.npz
+!reports/*.csv
+
+# ---- Git helper notebook (never pushed) ----
+git_sync.ipynb
+
+# ---- Secrets ----
+kaggle.json
+.env
+*.pem
+*.key
+.git-credentials
+.aws/
+
+# ---- Python / Jupyter ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- Google Drive / OS junk ----
+*.gdoc
+*.gsheet
+*.gslides
+*.gdraw
+*.gform
+desktop.ini
+.DS_Store
+Icon?

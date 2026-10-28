@@ -45,3 +45,5 @@ venv/
 desktop.ini
 .DS_Store
 Icon?
+git_sync*.ipynb
+Git_Helper*.ipynb

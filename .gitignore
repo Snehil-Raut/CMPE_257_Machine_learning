@@ -20,7 +20,6 @@ models/*
 
 # ---- Git helper notebook (never pushed) ----
 git_sync.ipynb
-git_sync_Sree.ipynb
 
 # ---- Secrets ----
 kaggle.json

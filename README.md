@@ -71,7 +71,7 @@ This project implements that method end to end on M5. The professor's requiremen
 
 Source: [M5 Forecasting – Accuracy (Kaggle)](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data) — daily unit sales of 3,049 Walmart products across 10 stores in CA, TX and WI, with calendar events, SNAP days and weekly prices.
 
-The professor approved using a **subset**, provided the method stays faithful.
+The project uses a **subset** of the dataset, provided the method stays faithful.
 
 | | Paper (full M5) | This project |
 |---|---|---|
@@ -252,9 +252,8 @@ Main libraries: `pandas`, `numpy`, `pyarrow`, `lightgbm`, `matplotlib`, `seaborn
 
 | Name | Role |
 |---|---|
-| Ankita | Project owner — pipeline, hierarchy, features, teacher |
-| _Teammate_ | _role_ |
-| _Teammate 2_ | EDA plain-language write-up |
+| Snehil Raut | Project owner — pipeline, hierarchy, features, teacher |
+| Phani Divya Sree Tadinada | Team_member |
 
 CMPE 257 Machine Learning, San José State University · also an SJSU AI & ML Club project.
 

@@ -20,6 +20,7 @@ models/*
 
 # ---- Git helper notebook (never pushed) ----
 git_sync.ipynb
+git_sync_Sree.ipynb
 
 # ---- Secrets ----
 kaggle.json
@@ -45,5 +46,3 @@ venv/
 desktop.ini
 .DS_Store
 Icon?
-git_sync*.ipynb
-Git_Helper*.ipynb

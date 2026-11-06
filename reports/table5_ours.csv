@@ -1,0 +1,5 @@
+,teacher (ours),student H-Pro-Top (ours),teacher (paper M5),teacher better?
+L1_total,0.577,0.703,0.183,True
+L2_store,0.681,0.716,0.585,True
+L3_cat,0.612,0.69,0.496,True
+L4_dept,0.667,0.688,0.587,True

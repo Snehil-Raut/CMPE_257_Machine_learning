@@ -46,3 +46,4 @@ venv/
 desktop.ini
 .DS_Store
 Icon?
+!backend/data/*.parquet

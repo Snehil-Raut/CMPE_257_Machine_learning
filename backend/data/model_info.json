@@ -1,0 +1,11 @@
+{
+  "method": "H-Pro-Top (store + dept ensemble)",
+  "chosen_trials": {
+    "store": 6,
+    "dept": 6
+  },
+  "test_R_H": 0.745,
+  "forecast_start": "2016-04-25",
+  "forecast_end": "2016-05-22",
+  "stock_note": "on_hand is demo data (M5 has no inventory)"
+}

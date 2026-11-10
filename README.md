@@ -262,4 +262,3 @@ CMPE 257 Machine Learning, San José State University · also an SJSU AI & ML Cl
 - A. Jati et al., **"Hierarchical Proxy Modeling for Improved HPO in Time Series Forecasting,"** *KDD 2023*, ACM.
 - S. Makridakis, E. Spiliotis, V. Assimakopoulos, **"M5 accuracy competition: Results, findings, and conclusions,"** *International Journal of Forecasting*, 2022.
 - [M5 Forecasting – Accuracy, Kaggle](https://www.kaggle.com/competitions/m5-forecasting-accuracy)
-- README layout inspired by [awesome-readme](https://github.com/matiassingers/awesome-readme) (style of *priyavrat-misra/xrays-and-gradcam*).

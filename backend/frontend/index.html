@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Forecast Dashboard</title>
+    <link rel="stylesheet" href="/frontend/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Store Forecast Dashboard</h1>
+        <p>Sales history and machine-learning forecasts</p>
+    </header>
+
+    <main>
+        <section class="controls">
+            <label>
+                Store:
+                <select id="storeSelect"></select>
+            </label>
+
+            <label>
+                Search item:
+                <input id="searchInput" placeholder="Example: FOODS_1_001">
+            </label>
+
+            <button id="searchButton">Search</button>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <h3>Total Sales</h3>
+                <p id="salesTotal">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Forecast</h3>
+                <p id="forecastTotal">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h3>Selected Store</h3>
+                <p id="selectedStore">Loading...</p>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2>Store Overview</h2>
+            <canvas id="overviewChart"></canvas>
+        </section>
+
+        <section class="panel">
+            <h2>Items</h2>
+            <div id="itemsTable">Loading...</div>
+        </section>
+
+        <section class="panel">
+            <h2>Selected Item Forecast</h2>
+            <p id="selectedItem">Select an item from the table.</p>
+            <canvas id="itemChart"></canvas>
+        </section>
+    </main>
+
+    <script src="/frontend/app.js"></script>
+</body>
+</html>

@@ -72,7 +72,14 @@ def items(
             | result["cat_id"].str.lower().str.contains(search)
         ]
 
-    return result.head(limit).to_dict(orient="records")
+    if result.empty:
+        return []
+    sample_size = min(limit, len(result))
+    return (
+    result.sample(n=sample_size)
+    .reset_index(drop=True)
+    .to_dict(orient="records")
+)
 
 
 @app.get("/api/summary")

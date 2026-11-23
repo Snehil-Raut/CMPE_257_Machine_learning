@@ -10,7 +10,6 @@ Reproduction of the KDD 2023 paper **H-Pro** (Jati et al., IBM Research) on Walm
 - **Approach:** A LightGBM *teacher* forecasts the smooth totals (store, category, department) for the test month. Those forecasts act as a proxy answer key to choose the settings of a LightGBM *student* that forecasts every product.
 - **Result:** Proxy error tracked real test error at **ρ = 0.99** vs 0.92 for standard tuning, and H-Pro picked the best possible setting without seeing any test data.
 
-![Store Forecast Dashboard: actual sales vs forecast for store CA_1](docs/app_screenshot.png)
 
 **Stack:** Python · pandas · LightGBM · FastAPI · Chart.js · Google Colab · Render
 
